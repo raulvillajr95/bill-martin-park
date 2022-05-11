@@ -86,18 +86,26 @@ table {
   #navigation ul li a {
     color: #F3F3F3;
   }
-  
-  #kids-playground {
-    width: 35em;
-  }
 
   /* Middle Content */
   #main {
     display: flex;
     flex-direction: column;
     margin: 3em 2em;
-
-    background-color: grey;
+  }
+  #main h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+  #main-sign {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  #features-title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
   }
 
   /* Footer */
