@@ -49,12 +49,11 @@ table {
     background-color: #141414;
     color: #F3F3F3;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
   }
 
   /* Navigation Bar */
   #navigation {
-    background-color: grey;
-
     display: flex;
     flex-direction: column;
   }
@@ -70,6 +69,7 @@ table {
   }
   #navigation nav span {
     padding-left: 0.5em;
+    font-weight: 700;
   }
   #navigation ul {
     background-color: #003455;
@@ -91,6 +91,36 @@ table {
     width: 35em;
   }
 
+  /* Middle Content */
+  #main {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 2em;
+
+    background-color: grey;
+  }
+
   /* Footer */
-  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 20em;
+
+    background-color: #003455;
+  }
+  footer h3 {
+    font-size: 1.75em;
+    margin-left: 2em;
+  }
+  footer p {
+    font-size: 1em;
+    margin-left: 3.65em;
+    margin-top: 2em;
+    line-height: 1.75em;
+  }
+  footer p span {
+    font-style: italic;
+  }
 }
