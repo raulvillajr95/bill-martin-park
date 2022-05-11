@@ -142,7 +142,9 @@ table {
   }
   #rental-info-top-container {
     display: flex;
-    
+    justify-content: space-between;
+    width: 100%;
+    height: 4em;
   }
   #rental-info-top-container div h3 {
     font-size: 1.5em;
@@ -150,6 +152,47 @@ table {
   }
   #rental-info-top-container div span {
     margin-bottom: 0.75em;
+  }
+  #rental-info-top-container button {
+    height: 3em;
+    width: 4em;
+    border-style: none;
+    border-radius: 0.5em;
+    color: #141414;
+    background-color: #F3F3F3;
+  }
+  #prices-grid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+  #prices-grid-top {
+    display: flex;
+    background-color: #24465C;
+    height: 1.5em;
+    align-items: center;
+  }
+  #prices-grid-top #res {
+    width: 50%;
+    text-align: center;
+  }
+  #prices-grid-top #nres {
+    width: 50%;
+    text-align: center;
+  }
+  #prices-grid-bottom {
+    display: flex;
+    background-color: #003455;
+    height: 2em;
+    align-items: center;
+  }
+  #prices-grid-bottom #res {
+    width: 50%;
+    text-align: center;
+  }
+  #prices-grid-bottom #nres {
+    width: 50%;
+    text-align: center;
   }
 
   /* Footer */
