@@ -7,3 +7,5 @@ rentalCall.addEventListener('click', function() {
 rulesCall.addEventListener('click', function() {
   window.open('tel:19093496900');
 })
+
+let google; let apple;
