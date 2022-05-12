@@ -158,12 +158,13 @@ table {
     margin-bottom: 0.75em;
   }
   #rental-info-top-container button {
-    height: 3em;
-    width: 4em;
+    height: 2.5em;
+    width: 3.5em;
     border-style: none;
     border-radius: 0.5em;
     color: #141414;
     background-color: #F3F3F3;
+    font-size: 1.5em;
   }
   #prices-grid {
     display: flex;
@@ -228,12 +229,13 @@ table {
     line-height: 1.75em;
   }
   #rules-call {
-    height: 3em;
-    width: 4em;
+    height: 2.5em;
+    width: 3.5em;
     border-style: none;
     border-radius: 0.5em;
     color: #141414;
     background-color: #F3F3F3;
+    font-size: 1.5em;
   }
 
   /* Footer */
