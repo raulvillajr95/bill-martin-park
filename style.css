@@ -140,6 +140,10 @@ table {
     list-style: disc;
     list-style-position: inside;
   }
+  #four-img-back2back {
+    width: 100%;
+    margin-bottom: 2em;
+  }
   #rental-info-top-container {
     display: flex;
     justify-content: space-between;
@@ -193,6 +197,43 @@ table {
   #prices-grid-bottom #nres {
     width: 50%;
     text-align: center;
+  }
+  #rules-title {
+    font-size: 1.5em;
+    margin-bottom: 0.75em;
+  }
+  #rules-pic {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  #rules-desc {
+    font-size: 1em;
+    line-height: 1.75em;
+    margin-bottom: 2em;
+  }
+  #contact {
+    display: flex;
+    justify-content: space-between;
+  }
+  #contact div {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact div h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.75em;
+  }
+  #contact div span {
+    font-size: 1em;
+    line-height: 1.75em;
+  }
+  #rules-call {
+    height: 3em;
+    width: 4em;
+    border-style: none;
+    border-radius: 0.5em;
+    color: #141414;
+    background-color: #F3F3F3;
   }
 
   /* Footer */
