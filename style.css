@@ -312,6 +312,10 @@ footer p span {
     color: #F3F3F3;
   }
 
+  .nav-home-contact li a {
+    text-decoration: none;
+  }
+
   /* Middle Content */
   #main {
     display: flex;
