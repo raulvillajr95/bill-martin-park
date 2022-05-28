@@ -466,6 +466,40 @@ footer p span {
     background-color: #F3F3F3;
     font-size: 1.5em;
   }
+  /* Middle Content for Form */
+  #main form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  #main form label {
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+  }
+  #main form input {
+    margin-bottom: 1.75em;
+    border-style: none;
+    border-radius: 0.2em;
+    height: 1.2em;
+    font-size: 1.5em;
+  }
+  #main form textarea {
+    border-style: none;
+    border-radius: 0.4em;
+    resize: none;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    margin-bottom: 1.75em;
+  }
+  #main form button {
+    width: 5.5em;
+    height: 3em;
+    align-self: flex-end;
+    border-style: none;
+    border-radius: 0.4em;
+    font-size: 1.2em;
+  }
 
   /* Footer */
   footer {
