@@ -76,7 +76,6 @@ body {
 }
 #navigation ul {
   background-color: #003455;
-
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -88,6 +87,19 @@ body {
 }
 #navigation ul li a {
   color: #F3F3F3;
+}
+#old-nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003455;
+}
+#old-nav-links #pages {
+  margin-left: 1em;
+}
+#old-nav-links #pages li a {
+  text-decoration: none;
+  font-size: 0.75em;
 }
 
 /* Middle Content */
@@ -241,6 +253,45 @@ body {
   color: #F3F3F3;
   background-color: #141414;
   font-size: 1.5em;
+}
+/* Middle Content for Form Desktop */
+#main form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+#main form label {
+  font-size: 1.5em;
+  margin-bottom: 0.4em;
+}
+#main form input {
+  margin-bottom: 1.75em;
+  border-style: none;
+  border-radius: 0.2em;
+  height: 1.2em;
+  font-size: 1.5em;
+}
+#main form textarea {
+  border-style: none;
+  border-radius: 0.4em;
+  resize: none;
+  font-size: 1.2em;
+  font-family: 'Roboto';
+  margin-bottom: 1.75em;
+}
+#main form button {
+  width: 5.5em;
+  height: 3em;
+  align-self: flex-end;
+  border-style: none;
+  border-radius: 0.4em;
+  font-size: 1.2em;
+  background-color: #F3F3F3;
+  color: #141414;
+}
+#main form button:hover {
+  cursor: pointer;
 }
 
 /* Footer */
@@ -506,7 +557,7 @@ footer p span {
     background-color: #F3F3F3;
     font-size: 1.5em;
   }
-  /* Middle Content for Form */
+  /* Middle Content for Form Mobile */
   #main form {
     display: flex;
     flex-direction: column;
