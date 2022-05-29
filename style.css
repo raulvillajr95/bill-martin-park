@@ -267,6 +267,12 @@ footer p span {
   font-style: italic;
 }
 
+/* Desktop, hide mobile nav */
+@media only screen and (min-width: 65em) {
+  #mobile-nav {
+    display: none;
+  }
+}
 
 /* Mobile & Tablet CSS */
 @media only screen and (max-width: 65em) {
@@ -278,6 +284,10 @@ footer p span {
   }
 
   /* Navigation Bar */
+  #old-nav {
+    display: none;
+  }
+
   #navigation {
     display: flex;
     flex-direction: column;
@@ -529,6 +539,11 @@ footer p span {
     border-style: none;
     border-radius: 0.4em;
     font-size: 1.2em;
+    background-color: #F3F3F3;
+    color: #141414;
+  }
+  #main form button:hover {
+    cursor: pointer;
   }
   /* Middle Content for FAQ */
   .medium-sized-heading {
