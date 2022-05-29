@@ -271,6 +271,8 @@ body {
   border-radius: 0.2em;
   height: 1.2em;
   font-size: 1.5em;
+  background-color: #141414;
+  color: #F3F3F3;
 }
 #main form textarea {
   border-style: none;
@@ -279,6 +281,8 @@ body {
   font-size: 1.2em;
   font-family: 'Roboto';
   margin-bottom: 1.75em;
+  background-color: #141414;
+  color: #F3F3F3;
 }
 #main form button {
   width: 5.5em;
@@ -287,11 +291,21 @@ body {
   border-style: none;
   border-radius: 0.4em;
   font-size: 1.2em;
-  background-color: #F3F3F3;
-  color: #141414;
+  background-color: #141414;
+  color: #F3F3F3;
 }
 #main form button:hover {
   cursor: pointer;
+}
+/* Middle Content for FAQ for Desktop*/
+.medium-sized-heading {
+  font-size: 1.5em;
+  margin-bottom: 0.75em;
+}
+.answers {
+  font-size: 1em;
+  line-height: 1.75em;
+  margin-bottom: 2em;
 }
 
 /* Footer */
@@ -574,6 +588,8 @@ footer p span {
     border-radius: 0.2em;
     height: 1.2em;
     font-size: 1.5em;
+    background-color: #F3F3F3;
+    color: #141414;
   }
   #main form textarea {
     border-style: none;
@@ -582,6 +598,8 @@ footer p span {
     font-size: 1.2em;
     font-family: 'Roboto';
     margin-bottom: 1.75em;
+    background-color: #F3F3F3;
+    color: #141414;
   }
   #main form button {
     width: 5.5em;
@@ -596,7 +614,7 @@ footer p span {
   #main form button:hover {
     cursor: pointer;
   }
-  /* Middle Content for FAQ */
+  /* Middle Content for FAQ for Mobile*/
   .medium-sized-heading {
     font-size: 1.5em;
     margin-bottom: 0.75em;
