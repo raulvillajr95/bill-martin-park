@@ -344,52 +344,16 @@ footer p span {
   body {
     background-color: #141414;
     color: #F3F3F3;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
   }
 
   /* Navigation Bar */
   #old-nav {
     display: none;
   }
-
-  #navigation {
-    display: flex;
-    flex-direction: column;
-  }
-  #navigation nav {
-    background-color: #5B6F29;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 2em;
-  }
-  #navigation nav i {
-    padding-left: 1em;
-  }
-  #navigation nav span {
-    padding-left: 0.5em;
-    font-weight: 700;
-  }
-  #navigation ul {
-    background-color: #003455;
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 3.5em;
-  }
-  #navigation ul li {
-    margin-right: 1em;
-    font-size: 2em;
-  }
-  #navigation ul li a {
-    color: #F3F3F3;
-  }
   /* hamburger type menu 'topnav' */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #3b4622;
     position: relative;
   }
   .topnav #myLinks {
@@ -423,22 +387,9 @@ footer p span {
 
   /* Middle Content */
   #main {
-    display: flex;
-    flex-direction: column;
     margin: 3em 2em;
   }
-  #main h1 {
-    text-align: center;
-    font-size: 2em;
-    font-weight: 700;
-    margin-bottom: 1em;
-  }
-  #main-sign {
-    width: 100%;
-    margin-bottom: 2em;
-  }
   #features-title {
-    font-size: 1.5em;
     margin-bottom: 0.75em;
   }
   .list-container {
@@ -474,178 +425,51 @@ footer p span {
     list-style: disc;
     list-style-position: inside;
   }
-  #four-img-back2back {
-    width: 100%;
-    margin-bottom: 2em;
-  }
   #rental-info-top-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
     height: 4em;
   }
   #rental-info-top-container div h3 {
-    font-size: 1.5em;
     margin-bottom: 0.75em;
   }
   #rental-info-top-container div span {
     margin-bottom: 0.75em;
   }
   #rental-info-top-container button {
-    height: 2em;
-    width: 3em;
-    border-style: none;
-    border-radius: 0.5em;
     color: #141414;
     background-color: #F3F3F3;
-    font-size: 1.5em;
   }
   #prices-grid {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 2em;
-  }
-  #prices-grid-top {
-    display: flex;
-    background-color: #24465C;
-    height: 1.5em;
-    align-items: center;
-  }
-  #prices-grid-top #res {
-    width: 50%;
-    text-align: center;
-  }
-  #prices-grid-top #nres {
-    width: 50%;
-    text-align: center;
-  }
-  #prices-grid-bottom {
-    display: flex;
-    background-color: #003455;
-    height: 2em;
-    align-items: center;
-  }
-  #prices-grid-bottom #res {
-    width: 50%;
-    text-align: center;
-  }
-  #prices-grid-bottom #nres {
-    width: 50%;
-    text-align: center;
   }
   #rules-title {
-    font-size: 1.5em;
     margin-bottom: 0.75em;
-  }
-  #rules-pic {
-    width: 100%;
-    margin-bottom: 2em;
-  }
-  #rules-desc {
-    font-size: 1em;
-    line-height: 1.75em;
-    margin-bottom: 2em;
-  }
-  #contact {
-    display: flex;
-    justify-content: space-between;
-  }
-  #contact div {
-    display: flex;
-    flex-direction: column;
   }
   #contact div h3 {
-    font-size: 1.5em;
     margin-bottom: 0.75em;
   }
-  #contact div span {
-    font-size: 1em;
-    line-height: 1.75em;
-  }
   #rules-call {
-    height: 2em;
-    width: 3em;
-    border-style: none;
-    border-radius: 0.5em;
     color: #141414;
     background-color: #F3F3F3;
-    font-size: 1.5em;
   }
   /* Middle Content for Form Mobile */
-  #main form {
-    display: flex;
-    flex-direction: column;
-    padding-left: 3em;
-    padding-right: 3em;
-  }
-  #main form label {
-    font-size: 1.5em;
-    margin-bottom: 0.4em;
-  }
   #main form input {
-    margin-bottom: 1.75em;
-    border-style: none;
-    border-radius: 0.2em;
-    height: 1.2em;
-    font-size: 1.5em;
     background-color: #F3F3F3;
     color: #141414;
   }
   #main form textarea {
-    border-style: none;
-    border-radius: 0.4em;
-    resize: none;
-    font-size: 1.2em;
-    font-family: 'Roboto';
-    margin-bottom: 1.75em;
     background-color: #F3F3F3;
     color: #141414;
   }
   #main form button {
-    width: 5.5em;
-    height: 3em;
-    align-self: flex-end;
-    border-style: none;
-    border-radius: 0.4em;
-    font-size: 1.2em;
     background-color: #F3F3F3;
     color: #141414;
   }
-  #main form button:hover {
-    cursor: pointer;
-  }
-  /* Middle Content for FAQ for Mobile*/
-  .medium-sized-heading {
-    font-size: 1.5em;
-    margin-bottom: 0.75em;
-  }
-  .answers {
-    font-size: 1em;
-    line-height: 1.75em;
-    margin-bottom: 2em;
-  }
 
   /* Footer */
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 20em;
-
-    background-color: #003455;
-  }
   footer h3 {
-    font-size: 1.75em;
     margin-left: 2em;
   }
   footer p {
-    font-size: 1em;
     margin-left: 3.65em;
-    margin-top: 2em;
-    line-height: 1.75em;
-  }
-  footer p span {
-    font-style: italic;
   }
 }
