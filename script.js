@@ -8,8 +8,6 @@ rulesCall.addEventListener('click', function() {
   window.open('tel:19093496900');
 })
 
-let google; let apple;
-
 function hamburgerMenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
